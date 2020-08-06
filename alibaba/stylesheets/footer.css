@@ -1,0 +1,221 @@
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/Yekan.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Thin.ttf);
+    font-weight: lighter;
+}
+
+
+.footer-body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    z-index: 0;
+    position: relative;
+}
+
+.footer-footer-container {
+    padding: 32px 0px;
+    background-color: rgb(225, 225, 225);
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.footer-row {
+    width: 75%;
+    height: auto;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.footer-col {
+    padding: 0px 16px;
+    float: right;
+    box-sizing: border-box;
+    display: block;
+}
+
+.footer-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-brand-container {
+    width: 100%;
+    background-color: rgb(66, 66, 66);
+    height: auto;
+    padding: 16px 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.footer-footer-container h4 {
+    font-family: vazir;
+    color: rgb(66, 66, 66);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.footer-footer-container a , p {
+    font-family: vazir;
+    color: rgb(64, 64, 64);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.footer-footer-container ul {
+    padding-right: 16px;
+}
+
+.footer-footer-container li {
+    color: orange;
+    margin: 4px 0px;
+}
+
+
+
+.footer-logo {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.footer-center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-center-table {
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: auto;
+    direction: rtl;
+}
+
+.footer-center-td {
+    padding: 0px 8px;
+}
+
+.footer-center-td-with-left-border {
+    padding: 0px 8px;
+    border-width: 0px 0px 0px 1px;
+    border-color: rgb(114, 114, 114);
+    border-style: solid;
+}
+
+.footer-icon-table {
+    border-style: none;
+    width: 100%;
+}
+
+.footer-icon-td {
+    padding: 4px;   
+    width: 50%;
+}
+
+.footer-icon-table-second {
+    width: 70%;
+    margin: auto;
+}
+
+.footer-icon-td-second {
+    width: 33%;
+    padding: 4px 8px;
+}
+
+.footer-icon-div-second {
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    /* min-height: 90px; */
+    padding: 4px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.footer-logo-second {
+    width: 75px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.footer-brand-p {
+    font-family: vazir;
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.footer-brand-social-media {
+    margin-left: 8px;
+    margin-right: 8px;
+
+    position: relative;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer-brand-social-media-aparat {
+    padding: 8px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 80px;
+}
+
+.footer-brand-social-media-aparat:hover {
+    background-color: rgb(237, 20, 91);
+}
+
+.footer-brand-social-media-linkedin {
+    padding: 8px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 80px;
+}
+
+.footer-brand-social-media-linkedin:hover {
+    background-color: rgb(0, 119, 181);
+}
+
+.footer-brand-social-media-instagram {
+    padding: 8px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 80px;
+}
+
+.footer-brand-social-media-instagram:hover {
+    background-color: rgb(64, 93, 230);
+}
+
+.footer-brand-social-media-logo {
+    width: auto; 
+    height: 1.2em; 
+    overflow:auto;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/Yekan.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.ttf);
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Thin.ttf);
+    font-weight: lighter;
+}
+
+.tour-body {
+    padding: 16px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.tour-container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    direction: rtl;
+}
+
+.tour-row {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.tour-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.tour-col {
+    padding: 16px 32px;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 16px;
+}
+
+.tour-col h5 {
+    color: rgb(33, 33, 33);
+    font-size: 1em;
+    font-family: vazir;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.tour-col p {
+    color: rgb(76, 74, 91);
+    font-size: 1em;
+    font-family: vazir;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.tour-col img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 160px;
+}
